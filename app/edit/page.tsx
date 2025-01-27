@@ -1,10 +1,10 @@
 import React from 'react'
-import LoginForm from './LoginForm'
+import EditProfilePopup from './components/EditUser'
 
 const page = () => {
   return (
     <div>
-        <LoginForm />
+        <EditProfilePopup />
     </div>
   )
 }
